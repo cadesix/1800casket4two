@@ -92,8 +92,8 @@ background-attachment: fixed;
 }
 
 @keyframes casper {
-from {opacity: 0.0; top:10px;} 
-to {opacity: 1.0; top:100px;} 
+from {opacity: 0.0; top:10px; text-align: center;} 
+to {opacity: 1.0; top:100px; text-align: center;} 
 
 }
 

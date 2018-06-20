@@ -125,7 +125,13 @@ color:black
 text-decoration:none;
 }
 
-@media only screen and (max-width: 768px;) {
-	.animated {
-		animation: none !important;
+@media (max-width: 768px) {
+  * {
+   -webkit-transition: none !important;
+   -moz-transition: none !important;
+   -o-transition: none !important;
+   -ms-transition: none !important;
+   transition: none !important;
+	animation: none !important;
+  }
 }

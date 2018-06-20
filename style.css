@@ -137,4 +137,5 @@ animation: none !important;
 
 .vid {
 visibility: hidden;
+opacity: 0;
 }

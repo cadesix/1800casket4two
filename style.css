@@ -3,7 +3,7 @@
 	color:red;
 	
 animation-name: casper;
-animation-duration: 2s;
+animation-duration: 6s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 
@@ -14,7 +14,7 @@ font-size: 45px;
 text-align: center;
 text-shadow: 1px 1px white;
 	
-position: fixed;
+position: absolute;
 top: 30px;
 }
 
@@ -92,8 +92,8 @@ background-attachment: fixed;
 }
 
 @keyframes casper {
-from {opacity: 0.0; top:100px;} 
-to {opacity: 1.0; top:1000px;} 
+from {opacity: 0.0; top:10px;} 
+to {opacity: 1.0; top:100px;} 
 
 }
 

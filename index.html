@@ -1,51 +1,30 @@
 <!DOCTYPE html>
 
-<html>
+<title>casper</title>
 <head>
-	<meta charset="utf-8">
-	<title>Responsive Image Maps jQuery Plugin</title>
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
-	<script src="../../js/ios-orientationchange-fix.min.js"></script>
-	<style>
-	div {
-		width: 100%;
-	}
-	img[usemap] {
-		border: none;
-		height: auto;
-		max-width: 100%;
-		width: auto;
-	}
-	</style>
+<title>
+Michael Casper
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="style.css"/>
+
 </head>
-<body style="">
-<div>
-	<img src="website.jpg" width="2291" height="1535" usemap="#map" alt="">
-	<map name="map">
-		<area shape="poly" coords="1344, 424, 1337, 393, 1334, 370, 1338, 359, 1352, 358, 1364, 361, 1371, 379, 1375, 423" href="https://www.google.com" title="google" alt="Google">
-		<area shape="poly" coords="1275, 408, 1266, 360, 1280, 343, 1302, 343, 1310, 358, 1313, 409" href="https://joeavio.com" title="joeavio" alt="Joe Avio">
-		<area shape="poly" coords="1185, 462, 1171, 435, 1170, 415, 1174, 402, 1182, 400, 1196, 400, 1219, 448" href="https://www.youtube.com" title="Youtube" alt="Youtube">
-		<area shape="poly" coords="627, 577, 665, 559, 683, 566, 695, 561, 745, 565, 738, 577, 725, 593, 699, 603, 663, 603, 646, 598" href="https://www.facebook.com" title="Facebook" alt="Facebook">
-		<area shape="poly" coords="704, 401, 725, 386, 746, 381, 764, 383, 783, 397, 765, 410, 738, 415, 722, 413" href="https://www.twitter.com" title="Twitter" alt="Twitter">
-		<area shape="poly" coords="556, 417, 582, 400, 613, 404, 636, 410, 632, 423, 609, 432, 575, 439" href="https://www.soundcloud.com" title="Soundcloud" alt="Soundcloud">
-		<area shape="poly" coords="844, 395, 859, 372, 868, 367, 876, 367, 883, 386, 883, 406, 883, 430, 880, 460, 868, 482, 847, 493" href="https://www.instagram.com/joeavio" title="Instagram" alt="Instagram">
-		<area shape="poly" coords="524, 411, 511, 407, 501, 415, 517, 464, 521, 488, 528, 511, 537, 522" href="https://www.spotify.com" title="Spotify" alt="Spotify">
-</map>
-</div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="jquery.rwdImageMaps.min.js"></script>
-<script>
-$(document).ready(function(e) {
-	$('img[usemap]').rwdImageMaps();
+<body>
+	<div id="header"> 
+		michael casper
+	</div>
 	
-	$('area').on('click', function() {
-		alert($(this).attr('alt') + ' clicked');
-	});
-});
-</script>
-
-
-</body></html>
+	<div id="spotify">	
+		<a href="https://spotify.com">spotify</a>
+	</div>
+	
+	<div id="instagram">	
+		<a href="https://instagram.com/rawnzell">instagram</a>
+	</div>
+	
+	<div id="applemusic">	
+		<a href="https://itunes.com">apple music</a>
+	</div>
+		 
+</body>
+</html>

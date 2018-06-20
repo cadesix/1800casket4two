@@ -1,0 +1,116 @@
+
+#header {
+	color:red;
+	
+animation-name: casper;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+font-family: "Times New Roman";
+font-style: bold;
+font-style: italic;
+font-size: 45px;
+text-align: center;
+text-shadow: 1px 1px white;
+}
+
+#spotify {
+color:white;
+animation-name: ani;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+animation-timing-function: linear;
+animation-delay: -2.0s;
+
+font-family: "Times New Roman";
+font-style: bold;
+font-style: italic;
+font-size: 40px;
+text-shadow: 1px 1px red;
+
+position: fixed;
+right: 400px;
+top: 500px;
+}
+
+#instagram {
+color:white;
+animation-name: ani;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+animation-timing-function: linear;
+
+font-family: "Times New Roman";
+font-style: bold;
+font-style: italic;
+font-size: 40px;
+text-shadow: 1px 1px red;
+
+position: fixed;
+right: 400px;
+top: 500px;
+}
+
+#applemusic {
+color:white;
+animation-name: ani;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+animation-timing-function: linear;
+animation-delay: -3s;
+
+font-family: "Times New Roman";
+font-style: bold;
+font-style: italic;
+font-size: 40px;
+text-shadow: 1px 1px red;
+
+position: fixed;
+right: 400px;
+top: 500px;
+}
+
+
+
+html {
+background: url("bg.png");
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+@keyframes ani {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes casper {
+from {opacity: 0.0; top:100px;} 
+to {opacity: 1.0; top:1000px;} 
+
+}
+
+
+a:link {
+color: white;
+text-decoration:none;
+}
+
+a:visited {
+color:white;
+text-decoration:none;
+}
+
+a:hover {
+color:black;
+text-decoration:none;
+}
+
+a:active {
+color:black
+text-decoration:none;
+}

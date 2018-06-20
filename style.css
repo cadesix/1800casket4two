@@ -127,11 +127,14 @@ text-decoration:none;
 
 @media (max-width: 768px) {
   * {
-   -webkit-transition: none !important;
-   -moz-transition: none !important;
-   -o-transition: none !important;
-   -ms-transition: none !important;
-   transition: none !important;
-	animation: none !important;
+-webkit-transition: none !important;
+-moz-transition: none !important;
+-o-transition: none !important;
+-ms-transition: none !important;
+transition: none !important;
+animation: none !important;
   }
+
+.vid {
+visibility: hidden;
 }

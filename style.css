@@ -87,13 +87,13 @@ background-attachment: fixed;
 }
 
 @keyframes ani {
-    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
 }
 
 @keyframes casper {
-from {opacity: 0.0; top:10px; text-align: center;} 
-to {opacity: 1.0; top:100px; text-align: center;} 
+0% {opacity: 0.0; top:10px; left:600px; right:600px;} 
+100% {opacity: 1.0; top:60px; left: 600px; right: 600px;} 
 
 }
 

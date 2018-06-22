@@ -87,7 +87,7 @@ box-shadow: 15px 30px 3px #1a040c;
 
 
 html {
-background-image: url("cadesix.github.io/BG.jpg");
+background: color:black url("cadesix.github.io/BG.jpg");
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;

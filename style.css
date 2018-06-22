@@ -1,5 +1,5 @@
 #header {
-	color:#9d4c51;
+	color: red;
 	
 animation-name: casper;
 animation-duration: 3s;
@@ -81,13 +81,12 @@ position:fixed;
 top:150px;
 bottom:150px;
 left:25px;
-box-shadow: 15px 30px 3px #1a040c;
 
 }
 
 
 html {
-background: url("cadesix.github.io/BG.jpg");
+background-image: url("BG.jpg");
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
@@ -99,8 +98,8 @@ background-attachment: fixed;
 }
 
 @keyframes casper {
-0% {opacity: 0.0; top:10px; left:600px; right:600px;} 
-100% {opacity: 1.0; top:60px; left: 600px; right: 600px;} 
+0% {opacity: 0.0; top:10px; left:400px; right:400px;} 
+100% {opacity: 1.0; top:60px; left: 400px; right: 400px;} 
 
 }
 
@@ -125,36 +124,12 @@ color:black
 text-decoration:none;
 }
 
-@media only screen and (max-width: 768px) {
-  * {
--webkit-transition: none !important;
--moz-transition: none !important;
--o-transition: none !important;
--ms-transition: none !important;
-transition: none !important;
-animation: none !important;
-}
-	
-.vid {
-visibility: hidden;
-opacity: 0;
-}
-	  
-.applemusic {
-color:white;
-	
-font-family: "Times New Roman";
-font-style: bold;
-font-style: italic;
-font-size: 40px;
-text-shadow: 1px 1px red;
-
-position: fixed;
-right: 20px;
-left: 20px;
-top: 20px; 
-}
-	
+@media only screen and (max-width: 768px;) {
+	.animated {
+		animation: none !important;
 }
 
-
+	.vid {
+		display: none !important;
+	
+}

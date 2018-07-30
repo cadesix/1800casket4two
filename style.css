@@ -6,7 +6,8 @@ font-style: italic;
 font-size: 45px;
 text-shadow: 1px 1px white;
 	
-position: relative;
+position: fixed;
+align: center;
 top: 30px;
 }
 

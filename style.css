@@ -5,7 +5,11 @@ font-style: bold;
 font-style: italic;
 font-size: 45px;
 text-shadow: 1px 1px white;
-margin: 0 auto;
+	
+position: fixed;
+top: 30px;
+right: auto;
+left: auto;
 	
 }
 

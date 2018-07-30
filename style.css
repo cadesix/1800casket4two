@@ -1,7 +1,6 @@
 #header {
 color: red;
 font-family: "Times New Roman";
-animation-name: casper;
 font-style: bold;
 font-style: italic;
 font-size: 45px;
@@ -114,10 +113,6 @@ text-decoration:none;
 }
 
 @media (max-width: 768px) {
-    #header {
-		animation: none;
-        position: relative;
-    }
     
     #spotify {
         animation: none;

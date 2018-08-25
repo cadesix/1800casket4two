@@ -71,6 +71,12 @@ right: 400px;
 top: 500px;
 }
 
+#emails {
+text-align: center;
+color: white;
+}
+
+
 #vid {
 position:fixed;
 top:150px;

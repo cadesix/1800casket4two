@@ -1,3 +1,10 @@
+
+#footer {
+text-align: center;
+color: white;
+}
+
+
 #header {
 	color: red;
 
@@ -69,12 +76,6 @@ text-shadow: 1px 1px red;
 position: fixed;
 right: 400px;
 top: 500px;
-}
-
-#footer {
-text-align: center;
-color: white;
-position: fixed;
 }
 
 
